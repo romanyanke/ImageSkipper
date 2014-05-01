@@ -1,0 +1,29 @@
+{
+    "extTitle": {
+        "message": "ImageSkipper",
+        "description": "extension's name"
+    },
+    "extDesc": {
+        "message": "ImageSkipper helps you to go through annoyng or disturbing images on the web.",
+        "description": "extension's description"
+    },
+    "extAbout": {
+        "message": "ImageSkipper helps you to get rid of images on the web page. It may be inconvenient image or disgusting illustration or some NSFW content. Just drag the image into the trash!"
+    },
+    "thanks_to": {
+        "message": "Thanks to"
+    },
+    "optionsPageTitle": {
+        "message": "Options page"
+    },
+    "about": {
+        "message": "About"
+    },
+    "todo": {
+        "message": "To-do list"
+    },
+    "todos": {
+        "message": "<li>fancy option page</li><li>context menu support</li><li>show trash on image hovering</li><li>adorable extension icon</li>",
+        "description": "to-do's list"
+    }
+}
