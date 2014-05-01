@@ -1,3 +1,8 @@
+v0.0.2:
+  date: 2014-05-01
+  changes:
+    - Now works with async loaded images
+
 v0.0.1:
   date: 2014-05-01
   changes:
