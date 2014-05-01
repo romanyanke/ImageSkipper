@@ -14,7 +14,7 @@
         "message": "Thanks to"
     },
     "optionsPageTitle": {
-        "message": "Options page"
+        "message": "ImageSkipper Options page"
     },
     "about": {
         "message": "About"
@@ -23,7 +23,7 @@
         "message": "To-do list"
     },
     "todos": {
-        "message": "<li>fancy option page</li><li>context menu support</li><li>show trash on image hovering</li><li>adorable extension icon</li>",
+        "message": "<li>fancy option page</li><li>context menu support</li><li>show trash on image hovering</li><li>blacklists</li><li>adorable extension icon</li>",
         "description": "to-do's list"
     }
 }
