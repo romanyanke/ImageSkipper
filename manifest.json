@@ -11,6 +11,9 @@
         "https://*/*",
         "http://*/* "
     ],
+    "background": {
+        "scripts": ["js/bg.js"]
+    },
     "content_scripts": [
         {
             "matches": [
