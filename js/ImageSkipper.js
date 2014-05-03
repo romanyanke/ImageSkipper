@@ -25,8 +25,10 @@ function dragger(e) {
                 offsetLeft = elemRect.left - bodyRect.left,
                 offsetTop = elemRect.top - bodyRect.top;
 
-            trash.style.top = offsetTop + 'px';
-            trash.style.left = offsetLeft + 'px';
+            offsetTop = Math.max(offsetTop, document.body.scrollTop);
+            offsetLeft = Math.max(offsetLeft, document.body.scrollLeft);
+            trash.style.top = offsetTop + 20 + 'px';
+            trash.style.left = offsetLeft + 20 + 'px';
             document.body.appendChild(trash);
 
         } else {
