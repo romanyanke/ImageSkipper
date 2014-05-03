@@ -10,4 +10,4 @@ ImageSkipper helps you to get rid of images on the web page. It may be inconveni
 Available for downlaod in [Chrome Web Store](https://chrome.google.com/webstore/detail/imageskipper/joihlgcekdijpkcighaigldhjgdkdboa).
 
 ###Changelog
-See [here](CHANGELOG)
+See [here](CHANGELOG).
