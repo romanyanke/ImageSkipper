@@ -4,8 +4,36 @@ function SkipIt(img) {
   });
 }
 
-chrome.contextMenus.create({
-    "title": chrome.i18n.getMessage('extTitle'),
-    "contexts":["image"],
-    "onclick": SkipIt
+var defaults = {
+    support: {
+        drag: true,
+        context: true,
+        hover: false
+    }
+};
+
+var extensionSettings;
+
+function readExtensionSettings() {
+    chrome.storage.sync.get({
+            support: defaults.support
+        }, function(options) {
+            extensionSettings = options;
+            if (options.support.context) {
+                chrome.contextMenus.create({
+                    "title": chrome.i18n.getMessage('extTitle'),
+                    "contexts":["image"],
+                    "onclick": SkipIt
+                });
+            } else {
+                chrome.contextMenus.removeAll();
+            }
+        }
+    );
+}
+
+readExtensionSettings();
+
+chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+    sendResponse(extensionSettings);
 });

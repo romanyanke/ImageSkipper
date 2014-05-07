@@ -19,11 +19,13 @@
     "about": {
         "message": "About"
     },
-    "todo": {
-        "message": "To-do list"
+    "options":{
+        "message": "Settings"
     },
-    "todos": {
-        "message": "<li>fancy option page</li><li>context menu support</li><li>show trash on image hovering</li><li>blacklists</li><li>adorable extension icon</li>",
-        "description": "to-do's list"
+    "support_drag": {
+        "message": "Drag'n'Drop support"
+    },
+    "support_contextmenu": {
+        "message": "Context menu support"
     }
 }
