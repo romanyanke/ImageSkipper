@@ -1,0 +1,65 @@
+body {
+    background: rgb(235, 221, 192);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
+   color: #4d3708;
+}
+
+.wrap {
+    width: 600px;
+    margin: 10px auto 50px;
+}
+
+.webstore {
+    display: block;
+    width: 205px;
+    height: 58px;
+    background-image: url(img/webstore.png);
+    float: right;
+}
+
+header {
+    text-align: center;
+}
+
+header, article {
+    border-bottom: 2px solid #4d3708;
+    padding-bottom: 1.5em;
+}
+
+h1 {
+    margin: 0;
+}
+
+.about {
+    width: 310px;
+    margin: auto;
+}
+
+.imageskipper {
+    width: 256px;
+    height: 256px;
+}
+
+article img {
+    display: block;
+    margin: auto;
+}
+
+.demo {
+    font-size: 0;
+}
+
+.try {
+    display: inline-block;
+    width: 50%;
+}
+
+.try h3 {
+    font-size: 20px;
+    margin: 0 0 1em;
+}
+
+.try img{
+    
+}
