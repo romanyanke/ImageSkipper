@@ -1,0 +1,20 @@
+img.ImageSkipper__candidate {
+  opacity: .1 !important;
+  -webkit-filter: grayscale(1) !important;
+  outline: 1px solid !important;
+}
+
+.ImageSkipper__avatar {
+  animation: zoom .4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(3);
+    pointer-events: none;
+  }
+  to {
+    transform: scale(1);
+    pointer-events: auto;
+  }
+}

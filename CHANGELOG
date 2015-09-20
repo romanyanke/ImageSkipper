@@ -1,3 +1,9 @@
+v0.2:
+  date: 2015-09-20
+  changes:
+    - New position and animation of the icon
+    - Refactoring
+
 v0.1:
   date: 2014-05-07
   changes:

@@ -1,35 +1,24 @@
 body {
-    background: rgb(235, 221, 192);
-    /*#ebddbf*/
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-   font-weight: 300;
-   color: #4d3708;
+  background: rgb(235, 221, 192);
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: #4d3708;
 }
 
 .wrap {
-    width: 600px;
-    margin: 10px auto;
+  width: 600px;
+  margin: 10px auto;
 }
 
 .ImageSkipper {
-    width: 256px;
-    padding-top: 236px;
-    text-align: right;
-    background: url(../icons/icon256.png);
-    margin: auto;
-    font-size: 11px;
-}
-.ImageSkipper:after {
-    content: attr(data-version);
+  width: 256px;
+  padding-top: 236px;
+  text-align: right;
+  background: url(../icons/icon256.png);
+  margin: auto;
+  font-size: 11px;
 }
 
-#status {
-    position: fixed;
-    background: #5593a4;
-    width: 100%;
-    left: 0;
-    top: 0;
-    line-height: 2em;
-    text-align: center;
-    color: #fff;
+.ImageSkipper:after {
+  content: attr(data-version);
 }

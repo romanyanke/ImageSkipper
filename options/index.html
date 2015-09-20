@@ -1,36 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title locale="optionsPageTitle"></title>
-    <link rel="stylesheet" href="options.css">
+	<title data-locale="optionsPageTitle"></title>
+  <link rel="stylesheet" href="options.css">
 </head>
 <body>
-    <div class="wrap">
-        <div id="status"></div>
-        <div class="ImageSkipper"></div>
-        <h1 locale="extTitle"></h1>
-        <p locale="extAbout"></p>
+  <div class="wrap">
+    <div data-locale="options_saved" id="status"></div>
+    <div class="ImageSkipper"></div>
 
-        <h3 locale="options"></h3>
-        <ul>
-            <li>
-                <label>
-                    <input type="checkbox" value="drag" id="drag"><span locale="support_drag"></span>
-                </label>
-            </li>
-            <li>
-                <label>
-                    <input type="checkbox" value="context" id="context"><span locale="support_contextmenu"></span>
-                </label>
-            </li>
-        </ul>
+    <h1 data-locale="extTitle"></h1>
+    <p data-locale="extAbout"></p>
 
-        <h3 locale="thanks_to"></h3>
-        <ul>
-            <li><a href="https://github.com/EightMedia/hammer.js/">drag.js from hammer.js</a></li>
-        </ul>
-    </div>
+    <h3 data-locale="options"></h3>
 
-<script src="options.js"></script>
+    <ul>
+      <li>
+        <label>
+          <input type="checkbox" value="drag" id="drag"><span data-locale="support_drag"></span>
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox" value="context" id="context"><span data-locale="support_contextmenu"></span>
+        </label>
+      </li>
+    </ul>
+  </div>
+
+  <script src="options.js"></script>
 </body>
 </html>
